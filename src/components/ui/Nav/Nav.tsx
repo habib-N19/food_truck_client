@@ -2,10 +2,12 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../Nav/navbarMenu";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 export function NavbarDemo() {
     return (
-        <div className="relative w-full flex items-center justify-center">
+        <div className="relative w-full flex items-center justify-between">
+            <Link href="/"><span className="text-red-700">StreetEats</span> Hub </Link>
             <Navbar className="top-2" />
         </div>
     );
