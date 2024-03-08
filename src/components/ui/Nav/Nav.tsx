@@ -7,7 +7,7 @@ import Link from "next/link";
 export function NavbarDemo() {
     return (
         <div className="relative w-full flex items-center justify-between">
-            <Link href="/"><span className="text-red-700">StreetEats</span> Hub </Link>
+            <Link href="/" className="mt-6"><span className="text-red-700 text-5xl ">StreetEats</span> Hub </Link>
             <Navbar className="top-2" />
         </div>
     );

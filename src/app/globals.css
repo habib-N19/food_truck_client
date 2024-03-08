@@ -33,8 +33,7 @@ body {
 }
 
 .video-container {
-	width: 500px; /* Adjust the width as needed */
-	height: 300px; /* Adjust the height as needed */
+
 	overflow: hidden;
 	clip-path: polygon(61% 0, 69% 12%, 100% 12%, 100% 100%, 0 100%, 0 0);
 	border-radius: 5%;
