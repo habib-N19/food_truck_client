@@ -1,8 +1,12 @@
-import React from 'react'
+'use client'
+
 
 const MapSection = () => {
+  const position:[number,number] = [51.505, -0.09]
   return (
-    <div>MapSection</div>
+<>
+<h1>Map</h1>
+</>
   )
 }
 
