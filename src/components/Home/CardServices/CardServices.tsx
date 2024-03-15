@@ -9,7 +9,7 @@ import SingleCard from "./SingleCard";
 const CardServices = () => {
   return (
     <div className="">
-    <h1 className="text-5xl font-bold text-center">
+    <h1 className="text-4xl md:text-5xl font-bold text-center">
       Unlock the Potential of Your{" "}
       <span className="text-red-500">Food Truck</span>
     </h1>
@@ -19,7 +19,7 @@ const CardServices = () => {
       explicabo numquam enim suscipit deserunt ad perspiciatis earum!
     </p>
 
-    <div className="mb-5 flex gap-4 justify-center flex-shrink-0">
+    <div className="mb-5 flex flex-shrink-0 flex-wrap justify-center gap-10 ">
       <SingleCard
         title={"Professional Film Production for Food Trucks"}
         info={

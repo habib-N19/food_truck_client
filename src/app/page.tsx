@@ -13,21 +13,21 @@ export default function Home() {
       <Header />
       <ServicesSection />
       <CardServices></CardServices>
-      <VendorTestimonials></VendorTestimonials>
-      <div className="flex flex-col my-5 gap-2 items-center md:flex-row md:justify-center">
-      <VendorCard></VendorCard>
-      <VendorCard></VendorCard>
-      <VendorCard></VendorCard>
-      </div>
+   
       <div>
         <BeginJourney></BeginJourney>
       </div>
-      <div className="my-5">
-        <MapSection></MapSection>
+      <div className="flex flex-wrap flex-shrink-0 my-5 gap-2 justify-center">
+      <VendorCard></VendorCard>
+      <VendorCard></VendorCard>
+      <VendorCard></VendorCard>
       </div>
-      <div className="my-5">
+      <div className="my-5 flex flex-wrap flex-shrink-0 gap-2 justify-center">
+        <SubcriptionCard></SubcriptionCard>
+        <SubcriptionCard></SubcriptionCard>
         <SubcriptionCard></SubcriptionCard>
       </div>
+      <VendorTestimonials></VendorTestimonials>
     </main>
   );
 }
